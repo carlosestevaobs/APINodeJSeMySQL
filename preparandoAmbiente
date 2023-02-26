@@ -1,0 +1,13 @@
+npm init -y
+
+npm install express mysql dotenv cors body-parser
+#express é um framework que facilita o desenvolvimento
+# dotenv serve para ler variáveis do sistema
+# bodyparser é capaz de converter o body de uma requisição para vários formatos
+
+npm install nodemon --save-dev
+
+#nodemon serve para sempre que tiver uma alteração nos arquivos ele altere o servidor
+
+# em caso de erro 1251 no mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha';
