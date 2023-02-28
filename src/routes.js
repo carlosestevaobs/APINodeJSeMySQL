@@ -14,4 +14,7 @@ router.post('/carro', CarroController.inserir);
 // alteração de dados
 router.put('/carro/:codigo', CarroController.alterar);
 
+// exclusão de dados
+router.delete('/carro/:codigo', CarroController.excluir);
+
 module.exports = router;
